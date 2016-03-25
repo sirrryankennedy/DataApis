@@ -22,7 +22,7 @@ Markit.QuoteService.prototype.handleSuccess = function(jsonResult) {
 };
 /**
 * Ajax error callback
-*/
+*/ 
 Markit.QuoteService.prototype.handleError = function(jsonResult) {
     console.error(jsonResult);
 };
